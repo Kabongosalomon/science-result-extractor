@@ -1,2 +1,5 @@
 nlpLeaderboard/src/main/java/com/ibm/sre/data/pdfFile/
-
+data/NLP-TDMS/pdfFile/
+bert/
+grobid-0.5.3/
+nlpLeaderboard/src/main/java/com/ibm/sre/data/NLP-TDMS/pdfFile/

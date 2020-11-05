@@ -5,7 +5,7 @@
  */
 package com.ibm.sre.pdfparser;
 
-import com.sun.javafx.scene.control.skin.VirtualFlow;
+//import com.sun.javafx.scene.control.skin.VirtualFlow;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

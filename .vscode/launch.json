@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BaseDirInfo<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.BaseDirInfo",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TdmsGoldAnnotation<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.data.annotation.TdmsGoldAnnotation",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArcPDNReader<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.data.corpus.ArcPDNReader",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NlpTDMSReader<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.data.corpus.NlpTDMSReader",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EvaluateCsv<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.evaluation.EvaluateCsv",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PdfInforExtractor<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.pdfparser.PdfInforExtractor",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenerateTestDataOnPDFPapers<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.tdmsie.GenerateTestDataOnPDFPapers",
+            "projectName": "nlpLeaderboard"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TEModelEvalOnNLPTDMS<nlpLeaderboard>",
+            "request": "launch",
+            "mainClass": "com.ibm.sre.tdmsie.TEModelEvalOnNLPTDMS",
+            "projectName": "nlpLeaderboard"
+        }
+    ]
+}

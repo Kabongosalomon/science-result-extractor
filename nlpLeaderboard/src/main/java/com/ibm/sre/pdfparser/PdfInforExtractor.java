@@ -33,7 +33,8 @@ public class PdfInforExtractor {
 
     
     public static void main(String[] args) throws IOException, Exception{
-        String pdfPath = "/Users/yhou/git/kbp-science/data/pdfFile/D18-1440.pdf";
+        // This is a path to my local machine
+        String pdfPath = "D:\\ORKG\\NLP\\science-result-extractor\\nlpLeaderboard\\src\\main\\java\\com\\ibm\\sre\\data\\pdfFile\\50.pdf";
         Map<String, String> sectionInfo = PdfInforExtractor.getPdfSections(pdfPath);
         List<CachedTable> tableInfo = PdfInforExtractor.getTableInfo(pdfPath);
         System.out.print("\n Section Info \n");

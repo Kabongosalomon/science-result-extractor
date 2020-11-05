@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
-import sun.swing.SwingUtilities2;
+//import sun.swing.SwingUtilities2;
 
 /**
  * Illustration of reading the Section/Table information from the pre-parsed
